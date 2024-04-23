@@ -5,10 +5,19 @@ background-color: black;
 }
 
 
-div{
+#header{
 
   border: 1px solid red;
   width: 100%;
   height: 109px;
 
+}
+
+#header img{
+  
+  width: 302px;
+  display: block;
+  margin-top: 36px;
+  margin-left: 1100px;
+  margin-right: 500px;
 }
