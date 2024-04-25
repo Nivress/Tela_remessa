@@ -1,23 +1,34 @@
-body{
-
-background-color: black;
-
+body {
+  background-color: black;
 }
 
-
-#header{
-
-  border: 1px solid red;
+#header {
   width: 100%;
   height: 109px;
-
 }
 
-#header img{
-  
+#header img {
   width: 302px;
   display: block;
   margin-top: 36px;
   margin-left: 1100px;
   margin-right: 500px;
+}
+
+#exchange {
+  border: solid 1px red;
+  width: 100%;
+  height: 931px;
+}
+
+#icons {
+  border: solid 1px blueviolet;
+  width: 1372px;
+  height: 143px;
+}
+
+#description {
+  border: solid 1px green;
+  width: 1920px;
+  height: 533px;
 }
