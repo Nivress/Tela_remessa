@@ -158,7 +158,7 @@ header{
   height: 100%;
 }
 
-.text{
+.api > .container > .text{
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -176,7 +176,7 @@ header{
   font-weight: 600;
 }
 
-p{
+.api > .container > .text > .txt{
   justify-content: center;
   font-family: Montserrat, sans-serif;
   color: #b2b2b2;
@@ -255,8 +255,10 @@ h1{
   height: 100%;
 }
 
-.card > p.desc{
+.icons > .container > .card > .desc{
   font-size: 17px;
+  font-family: Montserrat, sans-serif;
+  color: #B2B2B2;
   
 }
 .card{
@@ -310,7 +312,16 @@ h1{
   font-size: 26px;
 }
 
-.rDesc{
+.remittance > .container > .rText > .top > .text{
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  color: #b2b2b2;
+  font-size: 17px;
+}
+
+.remittance > .container > .rText > .bot > .text{
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
   color: #b2b2b2;
   font-size: 17px;
 }
@@ -428,10 +439,10 @@ h1{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 100px;
   width: 1280px;
   height: 943px;
   
-  gap: 50px;
 }
 
 .ttitle{
@@ -455,11 +466,11 @@ h1{
 .tcard{
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   width: 380px;
   height: 305px;
   background-color: #232323;
-  padding: 20px;
+  padding: 30px;
   border-radius: 7px;
 }
 
@@ -470,19 +481,55 @@ h1{
   font-weight: 500;
 }
 
-.taxes > .container > .tcards > .tcard > .txt{
-  font-size: 16px;
+.taxes > .container > .tcards > .tcard > .text{
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  line-height: 1.35;
+  font-size: 17px;
+  color: #B2B2B2;
+  max-width: 320px;
 }
 
 .taxes > .container > .tcards > .tcard > .t2{
+  font-family: Montserrat, sans-serif;
   color: white;
   font-size: 22px;
   font-weight: 500;
 }
 
-.mcard{
+.taxes > .container > .mcard{
   display: flex;
+  flex-direction: row;
   width: 100%;
   height: 460px;
-  background-color: #B2B2B2;
+  background-color: #232323;
+  border-radius: 7px;
+  
+}
+
+.taxes > .container > .mcard > .mleft{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+}
+
+.taxes > .container > .mcard > .mleft > .title{
+  font-family: Montserrat, sans-serif;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.taxes > .container > .mcard > .mleft > .text{
+  font-family: Montserrat, sans-serif;
+  color: #B2B2B2;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.35;
+}
+
+.taxes > .container > .mcard > .mright{
+  width: 40%;
+  height: 460px;
 }
