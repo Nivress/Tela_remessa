@@ -261,7 +261,7 @@ h1{
   color: #B2B2B2;
   
 }
-.card{
+.icons > .container > .card{
   display: flex;
   text-align: center;
   align-items: center;
@@ -453,6 +453,7 @@ h1{
   color: white;
   font-size: 30px;
   font-weight: 500;
+  max-width: 800px;
 }
 
 .tcards{
@@ -563,4 +564,66 @@ h1{
 .taxes > .container > .mcard > .mright > .phone{
   width: 350px;
   height: 440px;
+}
+
+.uses{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+
+.uses > .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1280px;
+  height: 100%;
+  gap: 20px;
+  
+}
+
+.uses > .container > .title{
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  text-justify: auto;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  max-width: 800px;
+}
+
+.uses > .container > .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.uses > .container > .content > .card{
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  height: 150px;
+  border-radius: 7px;
+  border: 2px solid #242424;
+  padding: 40px;
+  
+}
+
+.uses > .container > .content > .card > .t2{
+  font-size: 22px;
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+
+.uses > .container > .content > .card > .txt{
+  font-family: 17px;
+  font-family: Montserrat, sans-serif;
+  color: #B2B2B2;
 }
