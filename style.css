@@ -437,9 +437,10 @@ h1{
 
 .taxes > .container{
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
   width: 1280px;
   height: 943px;
   
@@ -458,19 +459,18 @@ h1{
   display: flex;
   justify-content: center;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   height: 300px;
-  gap: 30px;
 }
 
 .tcard{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 380px;
-  height: 305px;
+  width: 320px;
+  height: 280px;
   background-color: #232323;
-  padding: 30px;
+  padding: 20px;
   border-radius: 7px;
 }
 
@@ -500,7 +500,7 @@ h1{
 .taxes > .container > .mcard{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 90%;
   height: 460px;
   background-color: #232323;
   border-radius: 7px;
@@ -510,8 +510,10 @@ h1{
 .taxes > .container > .mcard > .mleft{
   display: flex;
   flex-direction: column;
-  width: 60%;
-
+  width: 55%;
+  padding: 30px;
+  gap: 15px;
+  justify-content: center;
 }
 
 .taxes > .container > .mcard > .mleft > .title{
@@ -519,6 +521,7 @@ h1{
   color: white;
   font-size: 22px;
   font-weight: 500;
+  line-height: 1.35;
 }
 
 .taxes > .container > .mcard > .mleft > .text{
@@ -530,6 +533,34 @@ h1{
 }
 
 .taxes > .container > .mcard > .mright{
-  width: 40%;
-  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  padding: 0%;
+}
+
+.taxes > .container > .mcard > .mleft > .send{
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  background-color: #0B8FFF;
+  border-radius: 3px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+  margin-top: 15px;
+}
+
+.taxes > .container > .mcard > .mright > .phone{
+  width: 350px;
+  height: 440px;
 }
